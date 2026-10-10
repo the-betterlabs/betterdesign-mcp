@@ -1,0 +1,27 @@
+{
+  "name": "betterdesign",
+  "displayName": "betterdesign.ai",
+  "version": "0.1.1",
+  "description": "A library of app and website screens designed by people. Search it, then build from a screen and its project's design.md.",
+  "author": {
+    "name": "betterdesign.ai",
+    "url": "https://betterdesign.ai"
+  },
+  "homepage": "https://betterdesign.ai",
+  "keywords": [
+    "design",
+    "ui",
+    "screens",
+    "design-system",
+    "mcp"
+  ],
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "betterdesign.ai API key",
+      "description": "Generate one at betterdesign.ai under Settings, API keys. It starts with bdmcp_.",
+      "required": true,
+      "sensitive": true
+    }
+  }
+}
