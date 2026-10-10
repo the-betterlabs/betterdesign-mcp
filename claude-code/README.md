@@ -29,7 +29,8 @@ Claude searches, shows the matches as a numbered list, and waits for you to pick
 ## Examples
 
 - "Find a pricing page on betterdesign.ai." Claude lists the matching screens with their images and asks which one you want.
-- "Fetch number 2 and build it as a React component with Tailwind or generate a new frame in Figma from it." Claude fetches that screen and its design.md for 1 credit, then writes the component using the design.md's colours, type and spacing.
+- "Fetch number 2 and build it as a React component with Tailwind." Claude fetches that screen and its design.md for 1 credit, then writes the component using the design.md's colours, type and spacing.
+- "Fetch number 2 and create a new frame in Figma from it." Claude fetches the screen the same way, then draws the frame through Figma's own connector. This needs the Figma connector set up in Claude Code; this plugin does not include it.
 - "Show me dark mobile settings screens." Claude searches with the device and theme filters applied.
 - "How many betterdesign.ai credits do I have left?" Claude reports your plan, your remaining credits and the date they reset.
 
