@@ -1,7 +1,7 @@
 {
   "name": "betterdesign-ai",
   "displayName": "betterdesign.ai",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A library of app and website screens designed by people. Search it, then build from a screen and its project's design.md.",
   "author": {
     "name": "betterlabs",

@@ -27,7 +27,7 @@ Then ask for a screen, or run `/betterdesign-ai:find iOS onboarding`.
 - Fetching a screen uses 1 credit and returns its image and its project's
   design.md. Fetching the same screen again in the same billing cycle is free.
 
-To change the key later: `/plugin configure betterdesign-ai@betterdesign-ai`.
+To change the key, for example after revoking one: `/plugin configure betterdesign-ai@betterdesign-ai`, then start a new session.
 To get a new version: `/plugin update betterdesign-ai@betterdesign-ai`.
 
 See [claude-code/README.md](claude-code/README.md) for what the plugin does and sends.

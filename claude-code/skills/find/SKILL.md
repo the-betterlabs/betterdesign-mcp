@@ -13,4 +13,6 @@ Use the BetterDesign library tools (`search_screens`, `get_screen`, `get_account
 4. `get_screen` returns the screen image and the design.md of the project it belongs to. Tell them whether a credit was used and how many are left.
 5. If they asked you to build something, use the image for layout and the design.md for exact values: colours, type, spacing, radii and components. Build in the stack already used in their project. Match the visual direction; do not claim a pixel copy.
 
+If the library tools are missing, or the connection fails because the API key is invalid or revoked, do not retry. Tell the person to run `/plugin configure betterdesign-ai@betterdesign-ai`, paste a key from betterdesign.ai under Settings → API keys, and then start a new session.
+
 If nothing matches, say so and suggest broader keywords. If a tool reports that the plan or the credits don't allow the request, pass that message on as it is.

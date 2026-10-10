@@ -39,6 +39,16 @@ Searching is free. Fetching a screen uses 1 credit from your plan, the same cred
 
 The plugin sends your API key and your search words or the chosen screen's id to betterdesign.ai, and nowhere else. It receives screen details, public image links, one screen image, and the text of a design.md. It does not read your files, run any code on your machine, or change anything in your betterdesign.ai account.
 
+## Changing your API key
+
+If you revoke a key or want to use a different one, run this inside Claude Code, in the terminal or in the desktop app's Code tab:
+
+```
+/plugin configure betterdesign-ai@betterdesign-ai
+```
+
+Paste the new key, save, and start a new session. If tools stop working with a message about an invalid or revoked key, this is the fix.
+
 ## Support
 
 https://betterdesign.ai/contact
