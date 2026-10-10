@@ -1,11 +1,12 @@
 {
-  "name": "betterdesign",
+  "name": "betterdesign-ai",
   "displayName": "betterdesign.ai",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A library of app and website screens designed by people. Search it, then build from a screen and its project's design.md.",
   "author": {
-    "name": "betterdesign.ai",
-    "url": "https://betterdesign.ai"
+    "name": "betterlabs",
+    "email": "info@betterlabs.live",
+    "url": "https://betterlabs.live"
   },
   "homepage": "https://betterdesign.ai",
   "keywords": [
@@ -23,5 +24,10 @@
       "required": true,
       "sensitive": true
     }
-  }
+  },
+  "repository": "https://github.com/the-betterlabs/betterdesign-mcp",
+  "supportUrl": "https://betterdesign.ai/contact",
+  "privacyPolicyUrl": "https://betterdesign.ai/privacy",
+  "termsOfServiceUrl": "https://betterdesign.ai/terms",
+  "license": "MIT"
 }

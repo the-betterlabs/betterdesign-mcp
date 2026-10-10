@@ -1,17 +1,21 @@
 {
-  "name": "betterdesign",
+  "name": "betterdesign-ai",
   "description": "betterdesign.ai for your AI tool: a library of screens designed by people, with a design.md for each project.",
   "owner": {
-    "name": "betterdesign.ai",
-    "url": "https://betterdesign.ai"
+    "name": "Better Labs Private Limited",
+    "email": "info@betterlabs.live",
+    "url": "https://betterlabs.live"
   },
   "plugins": [
     {
-      "name": "betterdesign",
+      "name": "betterdesign-ai",
       "source": "./claude-code",
       "description": "A library of app and website screens designed by people. Search it, then build from a screen and its project's design.md.",
       "category": "design",
       "displayName": "betterdesign.ai"
     }
-  ]
+  ],
+  "renames": {
+    "betterdesign": "betterdesign-ai"
+  }
 }
